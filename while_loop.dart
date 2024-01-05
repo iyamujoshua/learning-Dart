@@ -1,11 +1,7 @@
-void main() {
-  // var num = 5;
-  // while (num > 0) {
-  //   print(num);
-  //   num -= 1;
-  // }
+import 'dart:io';
 
-  var open1 = 10;
-  var open2 = 7;
-  print(open1 > open2);
+main() {
+  stdout.write("what is your name ");
+  var name = stdin.readLineSync();
+  print("my name is $name");
 }
