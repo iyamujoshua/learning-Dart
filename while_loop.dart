@@ -28,7 +28,7 @@ main() {
   String fullName = "Joshua";
   int age = 20;
   bool male = true;
-  List<String> fruits = ["mango", "apple"];
+  List<String> fruits = ["mango", "apple",];
   Map<String, dynamic> myData = {
     "name": fullName,
     "age": age,
@@ -36,5 +36,7 @@ main() {
     "food": fruits,
   };
   print(myData);
-  //undertanding control flow statement through if and else
+
+  //Learning Operators
+  
 }
